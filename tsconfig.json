@@ -14,9 +14,8 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": "./src",
-    "paths": {
-      "@/*": ["*"]
-    }
+    "paths": { "@/*": ["*"] },
+    "types": ["node"]              ← **nuevo**
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
